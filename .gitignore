@@ -1,0 +1,4 @@
+﻿# Ignore python scripts used for fetching
+fetch_rules.py
+__pycache__/
+*.zip

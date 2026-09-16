@@ -1,0 +1,41 @@
+﻿{
+  "manifest_version": 3,
+  "name": "ZenBlock: Ultra-Light Adblock & Safety",
+  "version": "1.0.0",
+  "description": "A lightning-fast, premium adblocker. Blocks annoying ads, YouTube video ads, and NSFW sites without slowing down your browser.",
+  "permissions": [
+    "declarativeNetRequest",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ads_tracking",
+        "enabled": true,
+        "path": "rules/ads.json"
+      },
+      {
+        "id": "adult_nsfw",
+        "enabled": true,
+        "path": "rules/nsfw.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["scripts/youtube.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
