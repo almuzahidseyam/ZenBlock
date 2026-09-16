@@ -52,3 +52,20 @@ Feel free to check [issues page](https://github.com/almuzahidseyam/ZenBlock/issu
 
 ## 📄 License
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
+## 🧪 How to Test ZenBlock
+To see ZenBlock in action and verify its effectiveness, try visiting these testing platforms and heavy-ad websites:
+
+### 1. Dedicated Ad-Block Testers
+* **[CanYouBlockIt.com](https://canyoublockit.com/)**: Click on "Extreme Test" or "Simple Test". If ZenBlock is active, you will not see any banner or popup ads.
+* **[AdBlock-Tester.com](https://adblock-tester.com/)**: This site scans your browser and gives a score out of 100 based on how powerful your adblocker is. (ZenBlock scores highly by blocking complex trackers!)
+
+### 2. Popular Heavy-Ad Sites
+* **[Speedtest.net](https://www.speedtest.net/)**: Normally, this site is filled with massive banner ads on both sides. With ZenBlock turned on, the interface becomes much cleaner.
+* **News Portals (e.g., Prothom Alo)**: Standard news portals rely heavily on Google banner ads. Visit them to see a clean, distraction-free reading experience.
+
+### 3. YouTube Video Ad Test
+Play any popular music video or lengthy YouTube video. ZenBlock's special lightweight script will automatically skip video ads the moment they appear and hide annoying banner overlays.
+
+### 4. NSFW / Adult Filter Test
+Open the ZenBlock popup and ensure the **"Block NSFW Content"** toggle is ON. Try visiting any known adult website. ZenBlock will instantly terminate the connection and block the site from loading!
