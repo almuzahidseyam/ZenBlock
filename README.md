@@ -1,5 +1,5 @@
 ﻿<div align="center">
-  <img src="icons/icon128.png" width="100" alt="ZenBlock Logo">
+  <img src="logo.png" width="150" alt="ZenBlock Logo">
   <h1>ZenBlock: Ultra-Light Adblock & Safety</h1>
   <p><strong>A lightning-fast, highly effective Manifest V3 Chrome Extension to block ads, YouTube videos ads, and NSFW content.</strong></p>
   
