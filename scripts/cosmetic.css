@@ -1,0 +1,37 @@
+﻿/* Lightweight Cosmetic Ad Hiding (Element Hiding) */
+/* Targets common ad wrapper classes and IDs globally */
+.adsbygoogle,
+.ad-banner,
+.ad-container,
+.ad-wrapper,
+.ad-slot,
+.ad-box,
+.sponsored-post,
+.sponsored-content,
+[id^="div-gpt-ad-"],
+[class*="--ad-"],
+[class^="ad_"],
+[id^="ad_"],
+.pub_300x250,
+.pub_300x250m,
+.pub_728x90,
+.text-ad,
+.textAd,
+.text_ad,
+.text_ads,
+.text-ads,
+.text-ad-links,
+#google_image_div,
+.banner-ad,
+.banner_ad,
+.outbrain-ad,
+.taboola-ad,
+.sponsor-banner,
+.advertisement {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
