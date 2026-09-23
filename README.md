@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img src="logo.png" width="150" alt="ZenBlock Logo">
   <h1>ZenBlock: Ultra-Light Adblock & Safety</h1>
   <p><strong>A lightning-fast, highly effective Manifest V3 Chrome Extension to block ads, YouTube videos ads, and NSFW content.</strong></p>
@@ -19,7 +19,11 @@ The result? **Zero network bottleneck, lightning-fast page loads, and highly eff
 - ⚡ **Ultra-Lightweight:** Uses native browser engines for blocking. Minimal CPU and RAM footprint.
 - 🚫 **Comprehensive Ad-Blocking:** Includes over 30,000 rules to block ads, trackers, and telemetry.
 - 🎥 **YouTube Ad Skipper:** Custom lightweight script to automatically skip video ads and hide banner overlays instantly.
-- 🔞 **NSFW/Adult Filter:** Built-in toggle to block over 30,000 known adult and disturbing websites for safe browsing.
+- 🔞 **NSFW/Adult Filter:** An optional toggle covering 30,000 adult sites. It ships **off** by
+  design: Chrome guarantees an extension 30,000 enabled static rules *in total*, the ad list
+  already uses that whole allowance, and enabling both at install meant the second list could
+  silently fail to load while its toggle still read as on. Switch it on in the popup — if Chrome
+  refuses, ZenBlock now says so instead of pretending.
 - 🎨 **Premium UI:** A beautifully designed, dark-themed popup interface with simple toggles.
 
 ## 📥 Installation Guide
@@ -68,4 +72,5 @@ To see ZenBlock in action and verify its effectiveness, try visiting these testi
 Play any popular music video or lengthy YouTube video. ZenBlock's special lightweight script will automatically skip video ads the moment they appear and hide annoying banner overlays.
 
 ### 4. NSFW / Adult Filter Test
-Open the ZenBlock popup and ensure the **"Block NSFW Content"** toggle is ON. Try visiting any known adult website. ZenBlock will instantly terminate the connection and block the site from loading!
+Open the ZenBlock popup and switch the **"Block NSFW Content"** toggle ON (it is off by default —
+see the feature note above). Try visiting any known adult website. ZenBlock will instantly terminate the connection and block the site from loading!

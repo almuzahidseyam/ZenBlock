@@ -1,4 +1,9 @@
-﻿# Ignore python scripts used for fetching
-fetch_rules.py
-__pycache__/
+# local scratch
+fetch*.py
 *.zip
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
